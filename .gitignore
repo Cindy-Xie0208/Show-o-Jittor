@@ -1,0 +1,43 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.so
+
+# Vendored upstream source is referenced by commit and is not redistributed here.
+vendor/
+official/
+deps/
+
+# Local/server-only assets and generated runs.
+weights/
+data/
+results/
+logs/
+fixtures/
+*.npz
+*.npy
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.parquet
+*.pkl
+*.pickle
+*.bin
+
+# Build and runtime artifacts.
+core
+core.*
+.cache/
+.jittor/
+*.log
+*.tmp
+*.bak
+*~
+
+# Local secrets and editor files.
+.env
+.env.*
+.DS_Store
+.idea/
+.vscode/
