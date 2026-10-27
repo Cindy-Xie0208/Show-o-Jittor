@@ -11,7 +11,9 @@ deps/
 # Local/server-only assets and generated runs.
 weights/
 data/
-results/
+results/*
+!results/summary/
+!results/summary/**
 logs/
 fixtures/
 *.npz
