@@ -1,0 +1,325 @@
+{
+  "status": "local_candidates_completed",
+  "alignment_status": "not_reclassified",
+  "variants": [
+    {
+      "variant": "centered_layernorm",
+      "checked": 24,
+      "outside_tolerance": 1,
+      "block_rows": [
+        {
+          "case": "mmu",
+          "name": "block.same_input",
+          "shape": [
+            1,
+            275,
+            2048
+          ],
+          "values": 563200,
+          "finite": true,
+          "max_abs": 0.00018310546875,
+          "mean_abs": 9.048064054116946e-07,
+          "relative_l2": 4.285910241800477e-07,
+          "outside_tolerance": 0,
+          "atol": 0.0001,
+          "rtol": 0.0001,
+          "passed": true,
+          "worst_tolerance_ratio": 0.24746349913387772,
+          "worst": {
+            "index": [
+              0,
+              263,
+              956
+            ],
+            "actual": -0.5414810180664062,
+            "expected": -0.5415191650390625,
+            "absolute_error": 3.814697265625e-05,
+            "allowed_error": 0.00015415191650390626
+          },
+          "bitwise_equal": false,
+          "input_source": "exact Torch block input"
+        },
+        {
+          "case": "t2i_all_masks",
+          "name": "block.same_input",
+          "shape": [
+            2,
+            1155,
+            2048
+          ],
+          "values": 4730880,
+          "finite": true,
+          "max_abs": 0.003662109375,
+          "mean_abs": 4.573761906341405e-06,
+          "relative_l2": 6.157921581348298e-07,
+          "outside_tolerance": 0,
+          "atol": 0.0001,
+          "rtol": 0.0001,
+          "passed": true,
+          "worst_tolerance_ratio": 0.7205794611795021,
+          "worst": {
+            "index": [
+              0,
+              1097,
+              725
+            ],
+            "actual": 0.32338714599609375,
+            "expected": 0.3234825134277344,
+            "absolute_error": 9.5367431640625e-05,
+            "allowed_error": 0.00013234825134277343
+          },
+          "bitwise_equal": false,
+          "input_source": "exact Torch block input"
+        },
+        {
+          "case": "t2i_half_masks",
+          "name": "block.same_input",
+          "shape": [
+            2,
+            1155,
+            2048
+          ],
+          "values": 4730880,
+          "finite": true,
+          "max_abs": 0.00238037109375,
+          "mean_abs": 4.9883450601279915e-06,
+          "relative_l2": 7.995908832239841e-07,
+          "outside_tolerance": 8,
+          "atol": 0.0001,
+          "rtol": 0.0001,
+          "passed": false,
+          "worst_tolerance_ratio": 1.975638335558765,
+          "worst": {
+            "index": [
+              1,
+              756,
+              293
+            ],
+            "actual": -0.12012481689453125,
+            "expected": -0.119903564453125,
+            "absolute_error": 0.00022125244140625,
+            "allowed_error": 0.0001119903564453125
+          },
+          "bitwise_equal": false,
+          "input_source": "exact Torch block input"
+        }
+      ]
+    },
+    {
+      "variant": "flat_linear",
+      "checked": 24,
+      "outside_tolerance": 0,
+      "block_rows": [
+        {
+          "case": "mmu",
+          "name": "block.same_input",
+          "shape": [
+            1,
+            275,
+            2048
+          ],
+          "values": 563200,
+          "finite": true,
+          "max_abs": 0.000194549560546875,
+          "mean_abs": 9.326826660650444e-07,
+          "relative_l2": 4.785129094357052e-07,
+          "outside_tolerance": 0,
+          "atol": 0.0001,
+          "rtol": 0.0001,
+          "passed": true,
+          "worst_tolerance_ratio": 0.3331371525657113,
+          "worst": {
+            "index": [
+              0,
+              40,
+              1129
+            ],
+            "actual": 0.03054046630859375,
+            "expected": 0.030574798583984375,
+            "absolute_error": 3.4332275390625e-05,
+            "allowed_error": 0.00010305747985839845
+          },
+          "bitwise_equal": false,
+          "input_source": "exact Torch block input"
+        },
+        {
+          "case": "t2i_all_masks",
+          "name": "block.same_input",
+          "shape": [
+            2,
+            1155,
+            2048
+          ],
+          "values": 4730880,
+          "finite": true,
+          "max_abs": 0.001708984375,
+          "mean_abs": 2.4678169746716402e-06,
+          "relative_l2": 2.692180386428468e-07,
+          "outside_tolerance": 0,
+          "atol": 0.0001,
+          "rtol": 0.0001,
+          "passed": true,
+          "worst_tolerance_ratio": 0.329569647953702,
+          "worst": {
+            "index": [
+              1,
+              351,
+              1626
+            ],
+            "actual": 0.1575164794921875,
+            "expected": 0.15747833251953125,
+            "absolute_error": 3.814697265625e-05,
+            "allowed_error": 0.00011574783325195313
+          },
+          "bitwise_equal": false,
+          "input_source": "exact Torch block input"
+        },
+        {
+          "case": "t2i_half_masks",
+          "name": "block.same_input",
+          "shape": [
+            2,
+            1155,
+            2048
+          ],
+          "values": 4730880,
+          "finite": true,
+          "max_abs": 0.00103759765625,
+          "mean_abs": 2.972227136496892e-06,
+          "relative_l2": 3.526232023593723e-07,
+          "outside_tolerance": 0,
+          "atol": 0.0001,
+          "rtol": 0.0001,
+          "passed": true,
+          "worst_tolerance_ratio": 0.43397545627697276,
+          "worst": {
+            "index": [
+              0,
+              750,
+              293
+            ],
+            "actual": -0.5822906494140625,
+            "expected": -0.5822219848632812,
+            "absolute_error": 6.866455078125e-05,
+            "allowed_error": 0.00015822219848632814
+          },
+          "bitwise_equal": false,
+          "input_source": "exact Torch block input"
+        }
+      ]
+    },
+    {
+      "variant": "centered_layernorm_flat_linear",
+      "checked": 24,
+      "outside_tolerance": 0,
+      "block_rows": [
+        {
+          "case": "mmu",
+          "name": "block.same_input",
+          "shape": [
+            1,
+            275,
+            2048
+          ],
+          "values": 563200,
+          "finite": true,
+          "max_abs": 0.00018310546875,
+          "mean_abs": 9.068335235827941e-07,
+          "relative_l2": 4.3568943627479255e-07,
+          "outside_tolerance": 0,
+          "atol": 0.0001,
+          "rtol": 0.0001,
+          "passed": true,
+          "worst_tolerance_ratio": 0.3449941350997033,
+          "worst": {
+            "index": [
+              0,
+              82,
+              575
+            ],
+            "actual": 0.16097450256347656,
+            "expected": 0.16101455688476562,
+            "absolute_error": 4.00543212890625e-05,
+            "allowed_error": 0.00011610145568847657
+          },
+          "bitwise_equal": false,
+          "input_source": "exact Torch block input"
+        },
+        {
+          "case": "t2i_all_masks",
+          "name": "block.same_input",
+          "shape": [
+            2,
+            1155,
+            2048
+          ],
+          "values": 4730880,
+          "finite": true,
+          "max_abs": 0.001953125,
+          "mean_abs": 2.5499314660643876e-06,
+          "relative_l2": 2.8469888035422454e-07,
+          "outside_tolerance": 0,
+          "atol": 0.0001,
+          "rtol": 0.0001,
+          "passed": true,
+          "worst_tolerance_ratio": 0.28541561865619186,
+          "worst": {
+            "index": [
+              1,
+              385,
+              1626
+            ],
+            "actual": -0.06920242309570312,
+            "expected": -0.06923294067382812,
+            "absolute_error": 3.0517578125e-05,
+            "allowed_error": 0.00010692329406738282
+          },
+          "bitwise_equal": false,
+          "input_source": "exact Torch block input"
+        },
+        {
+          "case": "t2i_half_masks",
+          "name": "block.same_input",
+          "shape": [
+            2,
+            1155,
+            2048
+          ],
+          "values": 4730880,
+          "finite": true,
+          "max_abs": 0.00103759765625,
+          "mean_abs": 3.03149026168084e-06,
+          "relative_l2": 3.703436264288137e-07,
+          "outside_tolerance": 0,
+          "atol": 0.0001,
+          "rtol": 0.0001,
+          "passed": true,
+          "worst_tolerance_ratio": 0.5972526378658172,
+          "worst": {
+            "index": [
+              1,
+              1042,
+              293
+            ],
+            "actual": 0.14960479736328125,
+            "expected": 0.1496734619140625,
+            "absolute_error": 6.866455078125e-05,
+            "allowed_error": 0.00011496734619140626
+          },
+          "bitwise_equal": false,
+          "input_source": "exact Torch block input"
+        }
+      ]
+    }
+  ],
+  "operator_reference_run": "<PROJECT_ROOT>/results/official512-operators-20261027-020932-992990",
+  "local_passed_variants": [
+    "flat_linear",
+    "centered_layernorm_flat_linear"
+  ],
+  "tolerances": {
+    "atol": 0.0001,
+    "rtol": 0.0001
+  },
+  "scope": "Layer 23 only; runtime FP32 candidates, not full-model acceptance"
+}

@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "scope": "Synthetic token overfit smoke test; not real-image training or paper benchmark reproduction",
+  "commit": "45a5a2de01d1ebd10cd5864d29310a76476cdf23",
+  "sources": {
+    "models/phi.py": "3d5affbd711b7c639de35f30080b6f40a0fe4a789ec27e9c4696042dc715b565",
+    "training/prompting_utils.py": "0e3d575742be1a478d82fc7cf3bdc68fb96714238d730ffd23cd1308160e16e1"
+  },
+  "versions": {
+    "torch": "2.4.1",
+    "numpy": "1.26.4",
+    "transformers": "4.41.1"
+  },
+  "seed": 42,
+  "steps": 50,
+  "gpu": "NVIDIA L20",
+  "physical_gpu": 1,
+  "parameters": 462336,
+  "tokens": {
+    "pad": 0,
+    "mmu": 1,
+    "t2i": 2,
+    "soi": 3,
+    "eoi": 4,
+    "eos": 5,
+    "mask": 255
+  },
+  "initial_loss": {
+    "mmu": 5.573050498962402,
+    "t2i": 5.569282531738281
+  },
+  "final_loss": {
+    "mmu": 0.08059389144182205,
+    "t2i": 0.1371811479330063
+  },
+  "checkpoint_max_abs_error": 0.0,
+  "train_seconds": 2.683344549499452,
+  "peak_allocated_bytes": 80784896
+}

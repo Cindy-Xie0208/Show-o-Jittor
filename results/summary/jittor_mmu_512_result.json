@@ -1,0 +1,1304 @@
+{
+  "status": "generation_completed",
+  "question": "Describe this image in detail.",
+  "answer": " The image features a cute little dog standing in a field of flowers, with its head peeking out from behind a flower. The dog appears to be enjoying the sun and the beautiful surroundings. The field is filled with various flowers, creating a vibrant and colorful scene. The dog is positioned in the center of the image,",
+  "reference_answer": " The image features a cute little dog standing in a field of flowers, with its head peeking out from behind a flower. The dog appears to be enjoying the sun and the beautiful surroundings. The field is filled with various flowers, creating a vibrant and colorful scene. The dog is positioned in the center of the image,",
+  "generated_ids": [
+    383,
+    2939,
+    3033,
+    257,
+    13779,
+    1310,
+    3290,
+    5055,
+    287,
+    257,
+    2214,
+    286,
+    12734,
+    11,
+    351,
+    663,
+    1182,
+    613,
+    18754,
+    503,
+    422,
+    2157,
+    257,
+    15061,
+    13,
+    383,
+    3290,
+    3568,
+    284,
+    307,
+    13226,
+    262,
+    4252,
+    290,
+    262,
+    4950,
+    21334,
+    13,
+    383,
+    2214,
+    318,
+    5901,
+    351,
+    2972,
+    12734,
+    11,
+    4441,
+    257,
+    21266,
+    290,
+    20239,
+    3715,
+    13,
+    383,
+    3290,
+    318,
+    19378,
+    287,
+    262,
+    3641,
+    286,
+    262,
+    2939,
+    11
+  ],
+  "reference_generated_ids": [
+    383,
+    2939,
+    3033,
+    257,
+    13779,
+    1310,
+    3290,
+    5055,
+    287,
+    257,
+    2214,
+    286,
+    12734,
+    11,
+    351,
+    663,
+    1182,
+    613,
+    18754,
+    503,
+    422,
+    2157,
+    257,
+    15061,
+    13,
+    383,
+    3290,
+    3568,
+    284,
+    307,
+    13226,
+    262,
+    4252,
+    290,
+    262,
+    4950,
+    21334,
+    13,
+    383,
+    2214,
+    318,
+    5901,
+    351,
+    2972,
+    12734,
+    11,
+    4441,
+    257,
+    21266,
+    290,
+    20239,
+    3715,
+    13,
+    383,
+    3290,
+    318,
+    19378,
+    287,
+    262,
+    3641,
+    286,
+    262,
+    2939,
+    11
+  ],
+  "exact_token_match": true,
+  "token_agreement": 1.0,
+  "eos_terminated": false,
+  "max_new_tokens": 64,
+  "source_image": "official/mmu_validation/dog.png",
+  "image_resolution": 512,
+  "image_tokens": 1024,
+  "checkpoint": "show-o-512x512",
+  "checkpoint_sha256": "638739e52da4f5cba220b7cd59c04819f852dda180124c5a32c9c48b35a7299f",
+  "next_logit_comparisons": [
+    {
+      "case": "mmu_decode",
+      "name": "1",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 5.7220458984375e-05,
+      "mean_abs": 1.3918864652741166e-05,
+      "relative_l2": 1.1422837033015083e-06,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "2",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 7.62939453125e-05,
+      "mean_abs": 2.1747476203980566e-05,
+      "relative_l2": 1.2465816145232746e-06,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "3",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 4.57763671875e-05,
+      "mean_abs": 1.0787092835498698e-05,
+      "relative_l2": 1.1024427389404652e-06,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "4",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 5.340576171875e-05,
+      "mean_abs": 1.0904181407163838e-05,
+      "relative_l2": 8.883087670953845e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "5",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 5.91278076171875e-05,
+      "mean_abs": 1.0815559531971795e-05,
+      "relative_l2": 9.669593510075359e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "6",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 5.7220458984375e-05,
+      "mean_abs": 1.194160796045725e-05,
+      "relative_l2": 1.048191867455838e-06,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "7",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 4.482269287109375e-05,
+      "mean_abs": 6.718314045348523e-06,
+      "relative_l2": 7.197026176280004e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "8",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 5.14984130859375e-05,
+      "mean_abs": 6.719819412595474e-06,
+      "relative_l2": 7.22957135926106e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "9",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 3.814697265625e-05,
+      "mean_abs": 5.669639309847647e-06,
+      "relative_l2": 5.50634739335571e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "10",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 5.14984130859375e-05,
+      "mean_abs": 1.1123606684617093e-05,
+      "relative_l2": 9.145058763199669e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "11",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 4.1961669921875e-05,
+      "mean_abs": 6.810141351888987e-06,
+      "relative_l2": 7.434538379473098e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "12",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 5.91278076171875e-05,
+      "mean_abs": 1.4667515977273352e-05,
+      "relative_l2": 1.3666592908142584e-06,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "13",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 4.00543212890625e-05,
+      "mean_abs": 7.380262797231523e-06,
+      "relative_l2": 7.337818146661469e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "14",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 6.103515625e-05,
+      "mean_abs": 1.2505892834544402e-05,
+      "relative_l2": 9.900002255275934e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "15",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 4.57763671875e-05,
+      "mean_abs": 7.009353217587923e-06,
+      "relative_l2": 6.811824825689733e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "16",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 4.57763671875e-05,
+      "mean_abs": 6.653255842851021e-06,
+      "relative_l2": 5.785580924343901e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "17",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 5.91278076171875e-05,
+      "mean_abs": 9.820218424997133e-06,
+      "relative_l2": 9.84587211737832e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "18",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 4.1961669921875e-05,
+      "mean_abs": 5.336727653038946e-06,
+      "relative_l2": 7.676909164849012e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "19",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 2.86102294921875e-05,
+      "mean_abs": 3.7770610197499362e-06,
+      "relative_l2": 2.4129586107894047e-06,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "20",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 5.14984130859375e-05,
+      "mean_abs": 8.918582342529143e-06,
+      "relative_l2": 7.760446501282236e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "21",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 7.2479248046875e-05,
+      "mean_abs": 1.7844572733803553e-05,
+      "relative_l2": 1.3568439478761602e-06,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "22",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 4.76837158203125e-05,
+      "mean_abs": 7.289514600106755e-06,
+      "relative_l2": 6.11103408116408e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "23",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 6.4849853515625e-05,
+      "mean_abs": 1.2419480689247208e-05,
+      "relative_l2": 9.039258599113813e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "24",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 4.57763671875e-05,
+      "mean_abs": 6.694398374416798e-06,
+      "relative_l2": 7.651724891597127e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "25",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 6.67572021484375e-05,
+      "mean_abs": 1.5015416808268194e-05,
+      "relative_l2": 1.6626029621475749e-06,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "26",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 6.866455078125e-05,
+      "mean_abs": 1.672726589736601e-05,
+      "relative_l2": 1.2372880569820325e-06,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "27",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 8.392333984375e-05,
+      "mean_abs": 2.1539054152573052e-05,
+      "relative_l2": 1.3207325939549412e-06,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "28",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 4.9591064453125e-05,
+      "mean_abs": 8.784617238795436e-06,
+      "relative_l2": 6.7985149005379e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "29",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 5.14984130859375e-05,
+      "mean_abs": 1.1007995734593637e-05,
+      "relative_l2": 1.1334442857264642e-06,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "30",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 5.7220458984375e-05,
+      "mean_abs": 7.888262676172344e-06,
+      "relative_l2": 7.097733613985646e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "31",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 3.4332275390625e-05,
+      "mean_abs": 5.417534581089844e-06,
+      "relative_l2": 6.790609858880823e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "32",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 5.340576171875e-05,
+      "mean_abs": 5.8814315965634836e-06,
+      "relative_l2": 5.944493754381319e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "33",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 4.76837158203125e-05,
+      "mean_abs": 6.294324738720983e-06,
+      "relative_l2": 6.661706647138381e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "34",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 5.7220458984375e-05,
+      "mean_abs": 6.591869867331162e-06,
+      "relative_l2": 8.934459104293079e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "35",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 5.53131103515625e-05,
+      "mean_abs": 8.1093712294667e-06,
+      "relative_l2": 8.216205638046712e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "36",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 3.910064697265625e-05,
+      "mean_abs": 5.600254576034377e-06,
+      "relative_l2": 6.174882301758572e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "37",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 4.76837158203125e-05,
+      "mean_abs": 5.1522439514411986e-06,
+      "relative_l2": 5.590066618868487e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "38",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 5.91278076171875e-05,
+      "mean_abs": 9.342060773398591e-06,
+      "relative_l2": 7.612355442557347e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "39",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 4.673004150390625e-05,
+      "mean_abs": 1.3672094467347607e-05,
+      "relative_l2": 2.2527431862387453e-06,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "40",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 4.38690185546875e-05,
+      "mean_abs": 7.145091890779299e-06,
+      "relative_l2": 4.66815307631154e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "41",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 4.38690185546875e-05,
+      "mean_abs": 6.576113141682145e-06,
+      "relative_l2": 5.571952995440906e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "42",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 4.57763671875e-05,
+      "mean_abs": 1.0631941719330733e-05,
+      "relative_l2": 1.2113433350706274e-06,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "43",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 4.76837158203125e-05,
+      "mean_abs": 6.340970358949159e-06,
+      "relative_l2": 6.97425815130027e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "44",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 4.1961669921875e-05,
+      "mean_abs": 6.239383369584875e-06,
+      "relative_l2": 6.119782698787684e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "45",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 4.57763671875e-05,
+      "mean_abs": 5.686620535704901e-06,
+      "relative_l2": 5.512123553721809e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "46",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 6.29425048828125e-05,
+      "mean_abs": 8.416490299377104e-06,
+      "relative_l2": 7.499746326216599e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "47",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 5.340576171875e-05,
+      "mean_abs": 6.427681285927057e-06,
+      "relative_l2": 5.439292719187332e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "48",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 3.814697265625e-05,
+      "mean_abs": 4.5550898327361785e-06,
+      "relative_l2": 4.567523457796638e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "49",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 3.24249267578125e-05,
+      "mean_abs": 6.672650502530476e-06,
+      "relative_l2": 8.733419124116395e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "50",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 4.1961669921875e-05,
+      "mean_abs": 8.89501065381839e-06,
+      "relative_l2": 8.498043965901091e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "51",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 2.956390380859375e-05,
+      "mean_abs": 4.685144652915476e-06,
+      "relative_l2": 7.463557551263659e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "52",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 3.62396240234375e-05,
+      "mean_abs": 5.248545663701746e-06,
+      "relative_l2": 5.580054755966471e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "53",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 4.38690185546875e-05,
+      "mean_abs": 6.950378367404962e-06,
+      "relative_l2": 6.339774578066391e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "54",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 2.765655517578125e-05,
+      "mean_abs": 3.8019822718553118e-06,
+      "relative_l2": 9.305600329880896e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "55",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 4.9591064453125e-05,
+      "mean_abs": 1.0372025812631063e-05,
+      "relative_l2": 6.56318823564255e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "56",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 3.814697265625e-05,
+      "mean_abs": 5.199441988222499e-06,
+      "relative_l2": 4.205114040083271e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "57",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 4.00543212890625e-05,
+      "mean_abs": 4.3739232852152745e-06,
+      "relative_l2": 4.5756301794442576e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "58",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 3.0517578125e-05,
+      "mean_abs": 4.688691831632286e-06,
+      "relative_l2": 4.7445635965955624e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "59",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 3.62396240234375e-05,
+      "mean_abs": 5.6593549202546456e-06,
+      "relative_l2": 4.492707408865659e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "60",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 4.00543212890625e-05,
+      "mean_abs": 6.068226269067181e-06,
+      "relative_l2": 5.852927648999715e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "61",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 4.9591064453125e-05,
+      "mean_abs": 9.35691344844076e-06,
+      "relative_l2": 7.835376945150437e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "62",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 5.14984130859375e-05,
+      "mean_abs": 1.1645773423437556e-05,
+      "relative_l2": 7.488539023492613e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "63",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 3.814697265625e-05,
+      "mean_abs": 5.5965387744065444e-06,
+      "relative_l2": 4.1395040880544593e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    },
+    {
+      "case": "mmu_decode",
+      "name": "64",
+      "shape": [
+        1,
+        58498
+      ],
+      "values": 58498,
+      "finite": true,
+      "max_abs": 3.814697265625e-05,
+      "mean_abs": 5.477433398535624e-06,
+      "relative_l2": 4.4567420603668034e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "shared_prefix": true
+    }
+  ],
+  "shared_prefix_checks": 64,
+  "shared_prefix_checks_failed": 0,
+  "scope": "Single dog image; full Jittor Transformer with official PyTorch top_k=1 sampler; same-weight eager reference; not a quality benchmark or full numerical acceptance"
+}

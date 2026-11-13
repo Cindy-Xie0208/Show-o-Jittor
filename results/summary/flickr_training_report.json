@@ -1,0 +1,92 @@
+{
+  "status": "passed",
+  "steps": 500,
+  "seed": 42,
+  "batch_size": 4,
+  "learning_rate": 0.0003,
+  "scope": "Small newly initialized Jittor model on real Flickr tokens; not paper benchmark reproduction",
+  "parameters": 15429502,
+  "initial": {
+    "step": 0,
+    "train_monitor_images": 16,
+    "validation_images": 32,
+    "train_monitor": {
+      "mmu": {
+        "loss": 10.950292452417239,
+        "token_accuracy": 0.0,
+        "tokens": 198
+      },
+      "t2i": {
+        "loss": 10.99942922592163,
+        "token_accuracy": 0.00048828125,
+        "tokens": 2048
+      },
+      "t2i_all_masks": {
+        "loss": 10.996062994003296,
+        "token_accuracy": 0.0,
+        "tokens": 4096
+      }
+    },
+    "validation": {
+      "mmu": {
+        "loss": 11.002833696816472,
+        "token_accuracy": 0.0,
+        "tokens": 482
+      },
+      "t2i": {
+        "loss": 10.994601488113403,
+        "token_accuracy": 0.0,
+        "tokens": 4096
+      },
+      "t2i_all_masks": {
+        "loss": 10.99766719341278,
+        "token_accuracy": 0.0,
+        "tokens": 8192
+      }
+    }
+  },
+  "final": {
+    "step": 500,
+    "train_monitor_images": 16,
+    "validation_images": 32,
+    "train_monitor": {
+      "mmu": {
+        "loss": 3.133172003909795,
+        "token_accuracy": 0.5505050505050505,
+        "tokens": 198
+      },
+      "t2i": {
+        "loss": 8.838228225708008,
+        "token_accuracy": 0.0009765625,
+        "tokens": 2048
+      },
+      "t2i_all_masks": {
+        "loss": 8.839096307754517,
+        "token_accuracy": 0.0009765625,
+        "tokens": 4096
+      }
+    },
+    "validation": {
+      "mmu": {
+        "loss": 5.404225097157648,
+        "token_accuracy": 0.27385892116182575,
+        "tokens": 482
+      },
+      "t2i": {
+        "loss": 9.206716656684875,
+        "token_accuracy": 0.000244140625,
+        "tokens": 4096
+      },
+      "t2i_all_masks": {
+        "loss": 9.210259437561035,
+        "token_accuracy": 0.00048828125,
+        "tokens": 8192
+      }
+    }
+  },
+  "best_checkpoint": "weights-step-000500.npz",
+  "final_checkpoint": "weights-step-000500.npz",
+  "checkpoint_max_abs_error": 0.0,
+  "elapsed_seconds": 60.52196436934173,
+  "weights_only_checkpoints": true
+}

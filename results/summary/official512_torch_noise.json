@@ -1,0 +1,214 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "case": "mmu",
+      "name": "cuda_fp32_vs_fp64",
+      "shape": [
+        1,
+        275,
+        2048
+      ],
+      "values": 563200,
+      "finite": true,
+      "max_abs": 0.00016894051765348195,
+      "mean_abs": 7.998108418211261e-07,
+      "relative_l2": 3.5230542417601475e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "worst_tolerance_ratio": 0.21232746465423227,
+      "worst": {
+        "index": [
+          0,
+          82,
+          575
+        ],
+        "actual": 0.16101455688476562,
+        "expected": 0.16098990588044515,
+        "absolute_error": 2.4651004320475067e-05,
+        "allowed_error": 0.00011609899058804452
+      }
+    },
+    {
+      "case": "mmu",
+      "name": "cpu_fp32_vs_fp64",
+      "shape": [
+        1,
+        275,
+        2048
+      ],
+      "values": 563200,
+      "finite": true,
+      "max_abs": 0.00013035257407523204,
+      "mean_abs": 5.85244973490389e-07,
+      "relative_l2": 2.768396461589773e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "worst_tolerance_ratio": 0.1997883379431251,
+      "worst": {
+        "index": [
+          0,
+          51,
+          1943
+        ],
+        "actual": 0.02040863037109375,
+        "expected": 0.02038824420395713,
+        "absolute_error": 2.0386167136621225e-05,
+        "allowed_error": 0.00010203882442039572
+      }
+    },
+    {
+      "case": "t2i_all_masks",
+      "name": "cuda_fp32_vs_fp64",
+      "shape": [
+        2,
+        1155,
+        2048
+      ],
+      "values": 4730880,
+      "finite": true,
+      "max_abs": 0.001604343091003102,
+      "mean_abs": 2.5902425838889143e-06,
+      "relative_l2": 2.8066948867982857e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "worst_tolerance_ratio": 0.2891222932130248,
+      "worst": {
+        "index": [
+          0,
+          676,
+          725
+        ],
+        "actual": -0.13008499145507812,
+        "expected": -0.1301176656761882,
+        "absolute_error": 3.2674221110085e-05,
+        "allowed_error": 0.00011301176656761882
+      }
+    },
+    {
+      "case": "t2i_all_masks",
+      "name": "cpu_fp32_vs_fp64",
+      "shape": [
+        2,
+        1155,
+        2048
+      ],
+      "values": 4730880,
+      "finite": true,
+      "max_abs": 0.0009140156876128458,
+      "mean_abs": 1.2844866994913251e-06,
+      "relative_l2": 1.2648440832151947e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "worst_tolerance_ratio": 0.1691948814654758,
+      "worst": {
+        "index": [
+          0,
+          156,
+          1129
+        ],
+        "actual": -0.05875968933105469,
+        "expected": -0.05874177596212604,
+        "absolute_error": 1.7913368928645923e-05,
+        "allowed_error": 0.00010587417759621261
+      }
+    },
+    {
+      "case": "t2i_all_masks",
+      "name": "critical_coordinate",
+      "index": [
+        0,
+        283,
+        293
+      ],
+      "cuda_fp32": -29.157501220703125,
+      "cuda_fp64": -29.157514580228074,
+      "cpu_fp32": -29.157501220703125
+    },
+    {
+      "case": "t2i_half_masks",
+      "name": "cuda_fp32_vs_fp64",
+      "shape": [
+        2,
+        1155,
+        2048
+      ],
+      "values": 4730880,
+      "finite": true,
+      "max_abs": 0.0009295922163801151,
+      "mean_abs": 3.085207626630895e-06,
+      "relative_l2": 3.34008521385228e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "worst_tolerance_ratio": 0.4510570086583652,
+      "worst": {
+        "index": [
+          1,
+          1042,
+          293
+        ],
+        "actual": 0.1496734619140625,
+        "expected": 0.14962160742572905,
+        "absolute_error": 5.185448833344708e-05,
+        "allowed_error": 0.00011496216074257291
+      }
+    },
+    {
+      "case": "t2i_half_masks",
+      "name": "cpu_fp32_vs_fp64",
+      "shape": [
+        2,
+        1155,
+        2048
+      ],
+      "values": 4730880,
+      "finite": true,
+      "max_abs": 0.00035907702920212614,
+      "mean_abs": 1.630981380539862e-06,
+      "relative_l2": 1.6086441535753128e-07,
+      "outside_tolerance": 0,
+      "atol": 0.0001,
+      "rtol": 0.0001,
+      "passed": true,
+      "worst_tolerance_ratio": 0.2031838791109506,
+      "worst": {
+        "index": [
+          1,
+          395,
+          293
+        ],
+        "actual": -0.169158935546875,
+        "expected": -0.16913518060475496,
+        "absolute_error": 2.3754942120035594e-05,
+        "allowed_error": 0.0001169135180604755
+      }
+    },
+    {
+      "case": "t2i_half_masks",
+      "name": "critical_coordinate",
+      "index": [
+        0,
+        283,
+        293
+      ],
+      "cuda_fp32": -0.01088714599609375,
+      "cuda_fp64": -0.010914698392625155,
+      "cpu_fp32": -0.01090240478515625
+    }
+  ],
+  "tolerances": {
+    "atol": 0.0001,
+    "rtol": 0.0001
+  },
+  "scope": "Same layer-23 inputs and weights; CUDA FP32 versus CUDA FP64 and CPU FP32; no full-model reclassification"
+}

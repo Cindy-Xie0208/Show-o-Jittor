@@ -1,0 +1,25 @@
+{
+  "scope": "Frozen PyTorch tokenizer reconstruction; not text-to-image generation",
+  "torch_version": "2.4.1+cu121",
+  "device": "NVIDIA L20",
+  "preprocessing": "RGB, resize short edge 256 bicubic, center crop 256, normalize [-1,1]",
+  "psnr_scope": "Clipped float reconstruction vs preprocessed input, data range 1; two examples only",
+  "samples": [
+    {
+      "image": "dog.png",
+      "tokens": 256,
+      "code_min": 6,
+      "code_max": 8083,
+      "mse": 0.0061921789310872555,
+      "psnr_db": 22.081565026382975
+    },
+    {
+      "image": "sofa_under_water.jpg",
+      "tokens": 256,
+      "code_min": 17,
+      "code_max": 8154,
+      "mse": 0.01266323309391737,
+      "psnr_db": 18.9745539893258
+    }
+  ]
+}

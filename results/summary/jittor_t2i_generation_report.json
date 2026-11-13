@@ -1,0 +1,17 @@
+{
+  "status": "completed",
+  "calls": 50,
+  "parameters": 1448176770,
+  "linear_variant": "flat_linear",
+  "elapsed_seconds": 77.16357175633311,
+  "torch_cuda_state": {
+    "module_loaded": true,
+    "cuda_initialized": false
+  },
+  "alignment_status": "failed",
+  "alignment_failed": 5,
+  "scope": "512x512 single-sample Jittor Transformer generation demonstration; official PyTorch sampler and MagViT retained; not complete native-Jittor pipeline, training reproduction or quality benchmark",
+  "generated_image": "<PROJECT_ROOT>/results/jittor-t2i-512-20261027-023446-631846/generated.png",
+  "comparison": "<PROJECT_ROOT>/results/jittor-t2i-512-20261027-023446-631846/comparison.png",
+  "comparison_layout": "left: earlier official PyTorch SDPA; right: Jittor Transformer with official sampler and MagViT"
+}

@@ -1,0 +1,214 @@
+{
+  "status": "completed",
+  "seed": 42,
+  "timesteps": 50,
+  "guidance_scale": 5.0,
+  "temperature": 1.0,
+  "progress": [
+    {
+      "step": 1,
+      "remaining_masks": 1024
+    },
+    {
+      "step": 2,
+      "remaining_masks": 1023
+    },
+    {
+      "step": 3,
+      "remaining_masks": 1021
+    },
+    {
+      "step": 4,
+      "remaining_masks": 1019
+    },
+    {
+      "step": 5,
+      "remaining_masks": 1015
+    },
+    {
+      "step": 6,
+      "remaining_masks": 1011
+    },
+    {
+      "step": 7,
+      "remaining_masks": 1005
+    },
+    {
+      "step": 8,
+      "remaining_masks": 999
+    },
+    {
+      "step": 9,
+      "remaining_masks": 991
+    },
+    {
+      "step": 10,
+      "remaining_masks": 983
+    },
+    {
+      "step": 11,
+      "remaining_masks": 973
+    },
+    {
+      "step": 12,
+      "remaining_masks": 963
+    },
+    {
+      "step": 13,
+      "remaining_masks": 952
+    },
+    {
+      "step": 14,
+      "remaining_masks": 939
+    },
+    {
+      "step": 15,
+      "remaining_masks": 926
+    },
+    {
+      "step": 16,
+      "remaining_masks": 912
+    },
+    {
+      "step": 17,
+      "remaining_masks": 897
+    },
+    {
+      "step": 18,
+      "remaining_masks": 881
+    },
+    {
+      "step": 19,
+      "remaining_masks": 864
+    },
+    {
+      "step": 20,
+      "remaining_masks": 846
+    },
+    {
+      "step": 21,
+      "remaining_masks": 828
+    },
+    {
+      "step": 22,
+      "remaining_masks": 809
+    },
+    {
+      "step": 23,
+      "remaining_masks": 789
+    },
+    {
+      "step": 24,
+      "remaining_masks": 768
+    },
+    {
+      "step": 25,
+      "remaining_masks": 746
+    },
+    {
+      "step": 26,
+      "remaining_masks": 724
+    },
+    {
+      "step": 27,
+      "remaining_masks": 700
+    },
+    {
+      "step": 28,
+      "remaining_masks": 677
+    },
+    {
+      "step": 29,
+      "remaining_masks": 652
+    },
+    {
+      "step": 30,
+      "remaining_masks": 627
+    },
+    {
+      "step": 31,
+      "remaining_masks": 601
+    },
+    {
+      "step": 32,
+      "remaining_masks": 575
+    },
+    {
+      "step": 33,
+      "remaining_masks": 548
+    },
+    {
+      "step": 34,
+      "remaining_masks": 521
+    },
+    {
+      "step": 35,
+      "remaining_masks": 493
+    },
+    {
+      "step": 36,
+      "remaining_masks": 464
+    },
+    {
+      "step": 37,
+      "remaining_masks": 435
+    },
+    {
+      "step": 38,
+      "remaining_masks": 406
+    },
+    {
+      "step": 39,
+      "remaining_masks": 376
+    },
+    {
+      "step": 40,
+      "remaining_masks": 346
+    },
+    {
+      "step": 41,
+      "remaining_masks": 316
+    },
+    {
+      "step": 42,
+      "remaining_masks": 285
+    },
+    {
+      "step": 43,
+      "remaining_masks": 254
+    },
+    {
+      "step": 44,
+      "remaining_masks": 223
+    },
+    {
+      "step": 45,
+      "remaining_masks": 191
+    },
+    {
+      "step": 46,
+      "remaining_masks": 160
+    },
+    {
+      "step": 47,
+      "remaining_masks": 128
+    },
+    {
+      "step": 48,
+      "remaining_masks": 96
+    },
+    {
+      "step": 49,
+      "remaining_masks": 64
+    },
+    {
+      "step": 50,
+      "remaining_masks": 32
+    }
+  ],
+  "torch_version": "2.4.1+cu121",
+  "prompt": "A photo of a golden retriever sitting in a field of yellow flowers.",
+  "original_sdpa_baseline_token_agreement": 1.0,
+  "peak_torch_allocated_bytes": 1667241472,
+  "scope": "Unmodified pinned official t2i_generate and CUDA random sampler; Transformer logits supplied by Jittor over a server-local socket; token agreement with earlier SDPA run is observational, not a strict acceptance test"
+}

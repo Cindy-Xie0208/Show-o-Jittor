@@ -1,0 +1,6 @@
+{
+  "status": "completed",
+  "torch": "<PROJECT_ROOT>/results/official512-noise-20261028-014125-631431/torch_noise.json",
+  "jittor": "<PROJECT_ROOT>/results/official512-noise-20261028-014125-631431/jittor_noise.json",
+  "scope": "Supplementary FP32 baseline-noise experiment; original 83-item result unchanged"
+}
