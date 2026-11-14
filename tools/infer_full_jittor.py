@@ -504,6 +504,9 @@ def relay_native(process, log):
 
 
 def main():
+    if "--native-pipeline" in sys.argv:
+        from native_pipeline import main as native_pipeline_main
+        return native_pipeline_main([value for value in sys.argv[1:] if value != "--native-pipeline"])
     root = Path.home() / "Show-o-Jittor"
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--gpu", type=int, default=1)
