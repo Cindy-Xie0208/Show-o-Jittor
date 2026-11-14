@@ -1,0 +1,52 @@
+{
+  "status": "planned_not_run",
+  "scope": "Full pretrained 1,448,176,770-parameter Show-o Transformer; frozen MagViT; small-data fine-tuning and held-out teacher-forced evaluation, not paper-scale training",
+  "prerequisite": "Full-model MMU and T2I loss/all-parameter gradient validation; numerical failures must be reviewed before training",
+  "source": {
+    "official_commit": "45a5a2de01d1ebd10cd5864d29310a76476cdf23",
+    "showo_sha256": "638739e52da4f5cba220b7cd59c04819f852dda180124c5a32c9c48b35a7299f",
+    "flickr_manifest_sha256": "dce49014745a0a6c2ba9e5c7a75058a2aafa7a72c616a1d94cd124e1d664b47e"
+  },
+  "data": {
+    "selection": "First 32 train images and first 8 validation images in the existing verified manifest order; persist explicit image IDs and hashes before execution",
+    "train_images": 32,
+    "validation_images": 8,
+    "caption_index": 0,
+    "image_resolution": 512,
+    "image_codes_per_image": 1024,
+    "tokenizer": "Pinned local Phi tokenizer with official UniversalPrompting special tokens",
+    "validation_used_for_gradient_fixture": false,
+    "overlap_policy": "Reject duplicate image hashes and train/validation overlap"
+  },
+  "training": {
+    "frameworks": ["pytorch", "jittor"],
+    "initial_weights": "Identical official pretrained checkpoint for both frameworks",
+    "trainable_parameters": "All 437 Transformer tensors; no LoRA or frozen Transformer layers",
+    "precision": "float32",
+    "dropout": 0.0,
+    "seed": 42,
+    "calibration_steps": 10,
+    "target_steps": 100,
+    "optimizer": "AdamW",
+    "learning_rate": 0.000001,
+    "betas": [0.9, 0.999],
+    "epsilon": 0.00000001,
+    "weight_decay": 0.01,
+    "gradient_clip_global_norm": 1.0,
+    "scheduler": "constant",
+    "optimizer_step_loss": "Mean of one MMU microbatch loss and one T2I microbatch loss; microbatch size 1; sequential gradient accumulation",
+    "t2i_masking": "Exactly 512 of 1024 image codes selected by a persisted NumPy seed schedule; identical masks and sample order across frameworks",
+    "logging": "Per-task losses, learning rate, gradient norm, elapsed time, peak GPU memory, nonfinite checks; compare per-step curves without requiring bitwise identical optimization trajectories",
+    "checkpoint_policy": "Preserve original pretrained weights; final new weights-only checkpoints with reload validation; no claim of exact optimizer/RNG resume",
+    "advance_policy": "Measure 10 steps and evaluate stability/resources before the 100-step run; no automatic full run on failed or nonfinite calibration"
+  },
+  "evaluation": {
+    "timepoints": [0, 10, 100],
+    "mmu": "Teacher-forced shifted full-vocabulary CE and token accuracy on nonignored caption labels",
+    "t2i": "Unshifted official prompting CE; separately report token accuracy/CE for masked image positions at fixed 50% mask and all-image-mask settings",
+    "aggregation": "Sum CE over supervised tokens / total supervised tokens; accuracy uses the same declared token denominator; report task and mask setting separately",
+    "comparison": "Both frameworks on the exact same persisted held-out fixtures before and after fine-tuning; publish absolute metric differences and sample counts",
+    "metric_limits": "Eight-image validation subset and teacher-forced token metrics do not establish paper-level FID, CLIPScore or open-ended understanding performance",
+    "expansion": "Choose a published generation/understanding benchmark protocol, dataset size and evaluator versions before any larger evaluation; FID and CLIPScore are not claimed in this pilot"
+  }
+}

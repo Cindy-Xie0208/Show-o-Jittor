@@ -1,0 +1,9 @@
+# Keep validated source hashes stable across Windows and Linux checkouts.
+* text=auto
+*.py text eol=lf
+*.sh text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.png binary
+*.jpg binary
+*.zip binary
